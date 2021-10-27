@@ -184,6 +184,40 @@ span {
   padding: 12px 0;
 }
 
+.logos{
+  position: absolute;
+  height: 150px;
+  width: auto;
+  visibility: hidden;
+  right: 81%;
+  top: 10%;
+  bottom: 15%;
+  z-index: 1;
+}
+
+.logos1{
+  position: absolute;
+  width: 240px;
+  height: auto;
+  visibility: hidden;
+  left: 81%;
+  top: 25%;
+  bottom: 25%;
+  z-index: 1;
+}
+
+@media (min-width: 1366px) {
+  #header.header-scrolled .logos{
+    visibility: visible;
+  }
+  #header.header-scrolled .logos1{
+    visibility: visible;
+  }
+  #header.header-scrolled{ 
+    background: #006895;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
